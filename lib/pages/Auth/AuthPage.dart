@@ -458,14 +458,6 @@ class _AuthCardState extends State<AuthCard> {
               ),
             ),
           ),
-          TextButton(
-              onPressed: () {
-                widget.userProvider.anonLogin();
-              },
-              child: Text(
-                'Sign in as Guest',
-                style: TextStyle(color: Colors.grey[600]),
-              ))
         ],
       ),
     );
